@@ -1,0 +1,48 @@
+name: "[via TechDoso pages only]"
+description: Issue filed via "Submit a request related to this content on GitHub" link on TechDoso pages.
+body:
+  - type: input
+    id: related-page-name
+    attributes:
+      label: Page name
+      description: Set automatically. Do not modify.
+    validations:
+      required: true
+  - type: input
+    id: related-page-url
+    attributes:
+      label: Page URL
+      description: Set automatically. Do not modify.
+    validations:
+      required: true
+  - type: input
+    id: section
+    attributes:
+      label: What specific section or headline this missing feature is in?
+    validations:
+      required: true
+  - type: textarea
+    id: suggestion
+    attributes:
+      label: What is the new suggestion?
+    validations:
+      required: true
+  - type: textarea
+    id: information
+    attributes:
+      label: What information is important or useful?
+  - type: textarea
+    id: references
+    attributes:
+      label: Do you have any supporting links, references, or citations?
+      description: Link to information that helps us fulfill your request.
+  - type: textarea
+    id: more-info
+    attributes:
+      label: Do you have anything more you want to share?
+      description: For example, steps to produce a feature, screenshots, screen recordings, or sample code
+  - type: markdown
+    attributes:
+      value: |
+        ---
+        You're finished! Please click **Submit new issue**. Thank you.
