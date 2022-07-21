@@ -1,11 +1,17 @@
 name: "[via TechDoso pages only]"
 description: Issue filed via "Report a problem with this content on GitHub" link on TechDoso pages.
 body:
-
+  - type: input
+    id: buged-page-name
+    attributes:
+      label: Page name
+      description: Set automatically. Do not modify.
+    validations:
+      required: true
   - type: input
     id: buged-page-url
     attributes:
-      label: TechDoso URL
+      label: Page URL
       description: Set automatically. Do not modify.
     validations:
       required: true
