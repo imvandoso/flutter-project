@@ -1,4 +1,4 @@
-name: "[via TechDoso pages only]"
+name: "Report a problem [via TechDoso pages only]"
 description: Issue filed via "Report a problem with this content on GitHub" link on TechDoso pages.
 body:
   - type: input
