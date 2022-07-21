@@ -3,7 +3,7 @@ description: Issue filed via "Report a problem with this content on GitHub" link
 body:
 
   - type: input
-    id: techdoso-url
+    id: buged-page-url
     attributes:
       label: TechDoso URL
       description: Set automatically. Do not modify.
